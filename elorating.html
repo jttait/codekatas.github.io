@@ -11,6 +11,8 @@
       <link href="https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&display=swap" rel="stylesheet">
       <link href="style.css" type="text/css" rel="stylesheet">
       <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+      <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
    </head>
    <body>
       <h1><a href="index.html">CodeKata</a> > EloRating</h1>
@@ -18,63 +20,9 @@
       zero-sum games like chess.</p>
       <p>The probability of player A winning against player B is given by the
       following formula where R is the rating of each player:</p>
-      <math>
-         <msub><mi>E</mi><mn>A</mn></msub>
-         <mo>=</mo>
-         <mfrac>
-            <mrow>
-               <mi>1</mi>
-            </mrow>
-            <mrow>
-               <mi>1</mi>
-               <mo>+</mo>
-               <msup>
-                  <mi>10</mi>
-                  <mn>
-                     <mo>(</mo>
-                     <msub>
-                        <mi>R</mi>
-                        <mn>B</mn>
-                     </msub>
-                     <mo>-</mo>
-                     <msub>
-                        <mi>R</mi>
-                        <mn>A</mn>
-                     </msub>
-                     <mo>)</mo>
-                     <mo>/</mo>
-                     <mi>400</mi>
-                  </mn>
-               </msup>
-            </mrow>
-         </mfrac>
-      </math>
+      <p>\[E_A\ = {1 \over 1 + 10 ^ {(R_A - R_B) / 400}}\]</p>
       <p>The revised rating of player A after the game is given by:</p>
-      <math>
-         <msubsup>
-            <mi>R</mi>
-            <mn>A</mn>
-            <mn>'</mn>
-         </msubsup>
-         <mo>=</mo>
-         <msub>
-            <mi>R</mi>
-            <mn>A</mn>
-         </msub>
-         <mo>+</mo>
-         <mi>K</mi>
-         <mo>(</mo>
-         <msub>
-            <mi>S</mi>
-            <mn>A</mn>
-         </msub>
-         <mo>-</mo>
-         <msub>
-            <mi>E</mi>
-            <mn>A</mn>
-         </msub>
-         <mo>)</mo>
-      </math>
+      <p>\[R'_A = R_A + K (S_A - E_A)\]</p>
       <p>S is the actual score and is 1 for win, 0.5 for draw, 0 for loss.</p>
       <p>K is a constant. FIDE uses 40 for new players, 20 for players below
       2400, and 10 for players above 2400.</p>
