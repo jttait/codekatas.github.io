@@ -38,7 +38,9 @@ jobs:
             echo "<html lang=\"en\">" >> test.html
             echo "  <head>" >> test.html
             echo "    <title>$name</title>" >> test.html
+            echo "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">" >> test.html
             echo "    <meta name=\"description\" content=\"$description\">" >> test.html
+            echo "    <meta charset=\"UTF-8\">" >> test.html
             echo "  </head>" >> test.html
             echo "  <body>" >> test.html
             echo "  </body>" >> test.html
