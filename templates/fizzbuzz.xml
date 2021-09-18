@@ -1,0 +1,11 @@
+<kata>
+   <name>FizzBuzz</name>
+   <description>Code kata for determining FizzBuzz number.</description>
+   <text>
+      <p>Any number evenly divisible by 3 is replaced by "Fizz".</p>
+      <p>Any number evenly divisible by 5 is replaced by "Buzz".</p>
+      <p>Any number evenly divisible by both 3 and 5 is replaced by
+      "FizzBuzz".</p>
+      <p>Determine the FizzBuzz number for a given positive integer.</p>
+   </text>
+</kata>
