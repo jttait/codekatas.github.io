@@ -33,6 +33,8 @@ jobs:
             name=$(xmllint --xpath "/kata/name/text()" $file)
             description=$(xmllint --xpath "/kata/description/text()" $file)
             text=$(xmllint --xpath "/kata/text" $file)
+            filename=$("$(name).html" | tr '[:upper:]' '[:lower:]')
+            echo $filename
             echo "" > test.html
             echo "<!DOCTYPE html>" >> test.html
             echo "<html lang=\"en\">" >> test.html
