@@ -1,0 +1,22 @@
+<kata>
+   <name>TenPinBowling</name>
+   <description>Code kata for scoring ten pin bowling.</description>
+   <text>
+      <p>A game comprises ten frames.</p>
+      <p>Each frame comprises up to 2 rolls.</p>
+      <p>One point is scored for each pin that is knocked down.</p>
+      <p>If all 10 pins are knocked down on the first shot then the frame ends,
+      you get a strike, and earn 10 points plus the sum of the next two
+      shots.</p>
+      <p>If all 10 pins are knocked down using both shots then you get a
+      spare and earn 10 points plus the sum of the next shot.</p>
+      <p>The rules are different for the 10<sup>th</sup> frame.</p>
+      <p>If you roll a strike with the first shot on the first shot of the
+      10<sup>th</sup> frame then you get 2 more shots.</p>
+      <p>If you roll a spare with the first two shots of the 10<sup>th</sup>
+      frame then you get 1 more shot.</p>
+      <p>The score for the 10<sup>th</sup> frame is the total number of pins
+      knocked down.</p>
+      <p>Keep track of the score during a bowling game.</p>
+   </text>
+</kata>
