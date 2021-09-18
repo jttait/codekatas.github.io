@@ -1,0 +1,19 @@
+<kata>
+   <name>MarsRover</name>
+   <description>Code kata for moving a Mars rover.</description>
+   <text>
+      <p>The rover starts with an initial position and heading.</p>
+      <p>Position is defined by x and y coordinates.</p>
+      <p>Heading is North, East, South, or West.</p>
+      <p>The rover can execute the following instructions:</p>
+      <ul>
+         <li>Move forward one</li>
+         <li>Move backward one</li>
+         <li>Turn right 90&#176;</li>
+         <li>Turn left 90&#176;</li>
+      </ul>
+      <p>A sequence of instructions is received from Earth e.g. forward, right, reverse, reverse.</p>
+      <p>Determine the final position and heading of the rover after executing
+      these instructions.</p>
+   </text>
+</kata>
