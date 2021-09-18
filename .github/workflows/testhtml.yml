@@ -28,7 +28,7 @@ jobs:
       - name: Test loop
         run: |
           for file in ./templates/*; do
-            echo "$file"
+            echo "$(head n -1 file)"
           done
       - name: Write
         run: |
