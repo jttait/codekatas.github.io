@@ -1,0 +1,13 @@
+<kata>
+   <name>ShoppingBasket</name>
+   <description>Code kata for pricing a shopping basket.</description>
+   <text>
+      <p>A product has a name and price.</p>
+      <p>Add and remove products from basket.</p>
+      <p>May apply offer of "three for the price of two" on selected products.</p>
+      <p>May apply offer of "buy one get one free" on selected products.</p>
+      <p>May apply staff discount of 10%.</p>
+      <p>Determine price of basket before discounts are applied.</p>
+      <p>Determine price of basket after discounts are applied.</p>
+   </text>
+</kata>
