@@ -48,6 +48,8 @@ jobs:
             echo "    <link rel=\"shortcut icon\" href=\"favicon.ico\" type=\"image/x-icon\">" >> test.html
             echo "  </head>" >> test.html
             echo "  <body>" >> test.html
+            echo "    <h1><a href=\"index.html\">Kata > $name</h1>" >> test.html
+            echo "    $text" >> test.html
             echo "  </body>" >> test.html
             echo "</html>" >> test.html
           done
