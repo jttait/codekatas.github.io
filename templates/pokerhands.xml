@@ -1,0 +1,23 @@
+<kata>
+   <name>PokerHands</name>
+   <description>Code kata for scoring poker hands.</description>
+   <text>
+      <p>Each hand has five cards.</p>
+      <p>Suits are: Hearts, Spades, Clubs, and Diamonds.</p>
+      <p>Ranks, from lowest to highest, are: 2, 3, 4, 5, 6, 7, 9, 10, J, Q, K, A.</p>
+      <p>Scores, from highest to lowest, are:</p>
+      <ul>
+         <li>Royal Flush: 10, J, Q, K, A. All same suit.</li>
+         <li>Straight Flush: Five cards in a sequence. All same suit.</li>
+         <li>Four of a Kind: Four cards, all same rank.</li>
+         <li>Full House: Three of a kind and one pair.</li>
+         <li>Flush: All five cards of same suit.</li>
+         <li>Straight: All five cards in a sequence.</li>
+         <li>Three of a Kind: Three cards of same rank.</li>
+         <li>Two Pair: Two different pairs.</li>
+         <li>One Pair: Two cards of same rank.</li>
+         <li>High Card: When you haven't made any of the hands above.</li>
+      </ul>
+      <p>Determine the score for a given hand.</p>
+   </text>
+</kata>
