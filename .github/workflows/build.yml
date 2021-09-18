@@ -19,7 +19,6 @@ jobs:
             description=$(xmllint --xpath "/kata/description/text()" $file)
             text=$(xmllint --xpath "/kata/text/child::*" $file)
             htmlfile="${name,,}.html"
-            echo $htmlfile
             echo "" > $htmlfile
             echo "<!DOCTYPE html>" >> $htmlfile
             echo "<html lang=\"en\">" >> $htmlfile
@@ -70,13 +69,10 @@ jobs:
             echo "<p class=\"nav\"><a href=\"$href\">$name</a>: $description</p>" >> $htmlfile
           done
           echo "  </body>" >> $htmlfile
-          echo "</html>" >> $htmlfile    
-      - name: Add all changes
-        run: git add --all
-      - name: Status
-        run: git status
-      - name: Commit changes
+          echo "</html>" >> $htmlfile
+      - name: Commit and push
         run: |
+          git add --all
           git config --global user.name 'Jonathon Tait'
           git config --global user.email 'jttait@gmail.com'
           git commit -am "Automated build"
