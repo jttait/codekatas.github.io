@@ -1,0 +1,9 @@
+<kata>
+   <name>LeapYear</name>
+   <description>Code kata for determining whether it's a leap year.</description>
+   <text>
+      <p>A leap year is divisible by 4 but not by 100 unless it is also
+      divisible by 400.</p>
+      <p>Determine whether a given year is a leap year.</p>
+   </text>
+</kata>
