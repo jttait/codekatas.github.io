@@ -34,6 +34,7 @@ jobs:
             description=$(xmllint --xpath "/kata/description/text()" $file)
             text=$(xmllint --xpath "/kata/text" $file)
             htmlfile="{$name,,}.html"
+            echo $htmlfile
 
             echo "" > test.html
             echo "<!DOCTYPE html>" >> test.html
