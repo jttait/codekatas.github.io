@@ -75,5 +75,5 @@ jobs:
           git add --all
           git config --global user.name 'Jonathon Tait'
           git config --global user.email 'jttait@gmail.com'
-          git commit -am "Automated build"
+          git diff --quiet && git diff --staged --quiet || git commit -am "Automated build"
           git push
