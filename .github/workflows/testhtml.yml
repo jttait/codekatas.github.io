@@ -27,6 +27,8 @@ jobs:
 
       - name: Write hello to file
         run: echo "hello" > hello.txt
+      - name: Switch to SSH
+        run: git remote set-url origin ${{ secrets.ssh }}
       - name: Add all changes
         run: git add --all
       - name: Status
