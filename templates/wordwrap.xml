@@ -1,0 +1,8 @@
+<kata>
+   <name>WordWrap</name>
+   <description>Code kata for wrapping text to maximum line length.</description>
+   <text>
+      <p>Given a string and a maximum line length, insert line breaks as
+      required so that no line exceeds the maximum.</p>
+   </text>
+</kata>
