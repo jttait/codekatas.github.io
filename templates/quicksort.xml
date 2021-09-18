@@ -1,0 +1,7 @@
+<kata>
+   <name>Quicksort</name>
+   <description>Code kata for implement quicksort algorithm.</description>
+   <text>
+      <p>Implement quicksort for an array of integers.</p>
+   </text>
+</kata>
