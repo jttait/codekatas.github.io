@@ -1,6 +1,6 @@
 <kata>
    <name>GreatCircle</name>
-   <description>Code kata for calculating great circle distance.</description>
+   <description>Calculate great circle distance between two locations.</description>
    <text>
       <p>A point on the Earth is defined by latitude and longitude.</p>
       <p>Latitude and longitude are defined by degrees, minutes, and seconds.</p>
