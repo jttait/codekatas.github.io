@@ -38,6 +38,7 @@ jobs:
             echo "<html lang=\"en\">" >> test.html
             echo "  <head>" >> test.html
             echo "    <title>$name</title>" >> test.html
+            echo "    <meta name=\"description\" content=\"$description\">" >> test.html
             echo "  </head>" >> test.html
             echo "  <body>" >> test.html
             echo "  </body>" >> test.html
