@@ -36,7 +36,7 @@ jobs:
             htmlfile="${name,,}.html"
             echo $htmlfile
 
-            echo "" > test.html
+            echo "" > $htmlfile.html
             echo "<!DOCTYPE html>" >> test.html
             echo "<html lang=\"en\">" >> test.html
             echo "  <head>" >> test.html
