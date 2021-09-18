@@ -2,12 +2,14 @@
    <name>CoinChange</name>
    <description>Code kata for making change with coins.</description>
    <text>
+      <![CDATA[
       <p>A vending machine dispenses change to customers after a purchase.</p>
       <p>Various amounts of different denominations of coins may be available to
       make this change.</p>
       <p>Provide change using the least number of coins.</p>
-      <p>For example, change of $1.30 with available coins of 1&#215;50&#162;,
-      10&#215;25&#162;, 5&#215;5&#162;, and 6&#215;1&#162; should return
-      1&#215;50&#162;, 3&#215;25&#162;, and 1&#215;5&#162;.</p>
+      <p>For example, change of $1.30 with available coins of 1&times;50&cents;,
+      10&times;25&cents;, 5&times;5&cents;, and 6&times;1&cents; should return
+      1&times;50&cents;, 3&times;25&cents;, and 1&times;5&cents;.</p>
+      ]]>
    </text>
 </kata>
