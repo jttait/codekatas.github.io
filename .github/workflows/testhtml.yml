@@ -33,7 +33,7 @@ jobs:
           echo "  </head>" >> test.html
           echo "  <body>" >> test.html
           echo "  </body>" >> test.html
-          echo "</html>
+          echo "</html>"
       - name: Add all changes
         run: git add --all
       - name: Status
