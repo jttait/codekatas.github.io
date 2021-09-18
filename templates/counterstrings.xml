@@ -1,0 +1,10 @@
+<kata>
+   <name>Counterstrings</name>
+   <description>Code kata for generating counterstrings.</description>
+   <text>
+      <p>Here is a 28 character counterstring:</p>
+      <p>*3*5*7*10*13*16*19*22*25*28*</p>
+      <p>Each asterisk is at the position given by the number preceding it.</p>
+      <p>Generate counterstrings of a given length.</p>
+   </text>
+</kata>
