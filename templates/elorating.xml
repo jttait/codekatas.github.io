@@ -1,0 +1,18 @@
+<kata>
+   <name>EloRating</name>
+   <description>Code kata for calculating Elo ratings.</description>
+   <text>
+      <p>The Elo rating is used to measuring relative skill of players in
+      zero-sum games like chess.</p>
+      <p>The probability of player A winning against player B is given by the
+      following formula where R is the rating of each player:</p>
+      <p>\[E_A\ = {1 \over 1 + 10 ^ {(R_A - R_B) / 400}}\]</p>
+      <p>The revised rating of player A after the game is given by:</p>
+      <p>\[R'_A = R_A + K (S_A - E_A)\]</p>
+      <p>S is the actual score and is 1 for win, 0.5 for draw, 0 for loss.</p>
+      <p>K is a constant. FIDE uses 40 for new players, 20 for players below
+      2400, and 10 for players above 2400.</p>
+      <p>Update the rating of a player based on the results of a series of
+      games.</p>
+   </text>
+</kata>
