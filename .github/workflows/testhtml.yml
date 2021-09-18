@@ -30,7 +30,7 @@ jobs:
       - name: Test loop
         run: |
           for file in ./templates/*; do
-            xmllint --xpath /kata/description/text() $file
+            xmllint --xpath "/kata/description/text()" $file
           done
       - name: Write
         run: |
