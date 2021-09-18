@@ -36,25 +36,25 @@ jobs:
             htmlfile="${name,,}.html"
             echo $htmlfile
 
-            echo "" > $htmlfile.html
-            echo "<!DOCTYPE html>" >> test.html
-            echo "<html lang=\"en\">" >> test.html
-            echo "  <head>" >> test.html
-            echo "    <title>$name</title>" >> test.html
-            echo "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">" >> test.html
-            echo "    <meta name=\"description\" content=\"$description\">" >> test.html
-            echo "    <meta charset=\"UTF-8\">" >> test.html
-            echo "    <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">" >> test.html
-            echo "    <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>" >> test.html
-            echo "    <link href=\"https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&display=swap\" rel=\"stylesheet\">" >> test.html
-            echo "    <link href=\"style.css\" type=\"text/css\" rel=\"stylesheet\">" >> test.html
-            echo "    <link rel=\"shortcut icon\" href=\"favicon.ico\" type=\"image/x-icon\">" >> test.html
-            echo "  </head>" >> test.html
-            echo "  <body>" >> test.html
-            echo "    <h1><a href=\"index.html\">Kata > $name</h1>" >> test.html
-            echo "    $text" >> test.html
-            echo "  </body>" >> test.html
-            echo "</html>" >> test.html
+            echo "" > $htmlfile
+            echo "<!DOCTYPE html>" >> $htmlfile
+            echo "<html lang=\"en\">" >> $htmlfile
+            echo "  <head>" >> $htmlfile
+            echo "    <title>$name</title>" >> $htmlfile
+            echo "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">" >> $htmlfile
+            echo "    <meta name=\"description\" content=\"$description\">" >> $htmlfile
+            echo "    <meta charset=\"UTF-8\">" >> $htmlfile
+            echo "    <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">" >> $htmlfile
+            echo "    <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>" >> $htmlfile
+            echo "    <link href=\"https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&display=swap\" rel=\"stylesheet\">" >> $htmlfile
+            echo "    <link href=\"style.css\" type=\"text/css\" rel=\"stylesheet\">" >> $htmlfile
+            echo "    <link rel=\"shortcut icon\" href=\"favicon.ico\" type=\"image/x-icon\">" >> $htmlfile
+            echo "  </head>" >> $htmlfile
+            echo "  <body>" >> $htmlfile
+            echo "    <h1><a href=\"index.html\">Kata > $name</h1>" >> $htmlfile
+            echo "    $text" >> $htmlfile
+            echo "  </body>" >> $htmlfile
+            echo "</html>" >> $htmlfile
           done
       - name: Add all changes
         run: git add --all
