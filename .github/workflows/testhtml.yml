@@ -29,4 +29,5 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo "hello" > test.txt
-          git status
+          git add --all
+          git commit -m "add test.txt"
