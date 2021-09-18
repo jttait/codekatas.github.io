@@ -29,7 +29,7 @@ jobs:
         run: sudo apt  install libxml2-utils
       - name: Test loop
         run: |
-          for file in ./templates/*; do
+          for file in ./templates/*; do;
             name=$(xmllint --xpath "/kata/name/text()" $file)
             description=$(xmllint --xpath "/kata/description/text()" $file)
             text=$(xmllint --xpath "/kata/text/child::*" $file)
@@ -49,6 +49,9 @@ jobs:
             echo "    <link href=\"https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&display=swap\" rel=\"stylesheet\">" >> $htmlfile
             echo "    <link href=\"style.css\" type=\"text/css\" rel=\"stylesheet\">" >> $htmlfile
             echo "    <link rel=\"shortcut icon\" href=\"favicon.ico\" type=\"image/x-icon\">" >> $htmlfile
+            echo "    <script src=\"https://polyfill.io/v3/polyfill.min.js?features=es6\"></script>" >> $htmlfile
+            echo "    <script>MathJax = { chtml : { displayAlign: 'left' } }</script>" >> $htmlfile
+            echo "    <script id=\"MathJax-script\" async src=\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js\"></script>" >> $htmlfile
             echo "  </head>" >> $htmlfile
             echo "  <body>" >> $htmlfile
             echo "    <h1><a href=\"index.html\">Kata</a> > $name</h1>" >> $htmlfile
