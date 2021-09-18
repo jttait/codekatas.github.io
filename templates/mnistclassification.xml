@@ -1,0 +1,8 @@
+<kata>
+   <name>MnistClassification</name>
+   <description>Code kata for classifying the MNIST dataset into digits.</description>
+   <text>
+      <p>Classify the images in the <a href="https://deepai.org/dataset/mnist">MNIST
+         dataset</a> into digits.</p>
+   </text>
+</kata>
