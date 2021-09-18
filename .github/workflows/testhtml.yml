@@ -29,3 +29,5 @@ jobs:
         run: echo "hello" > hello.txt
       - name: Add all changes
         run: git add --all
+      - name: Status
+        run: git status
