@@ -1,0 +1,5 @@
+    <link rel="preconnect" href="https://fonts.googleapis.com"> test.html
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> test.html
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&display=swap" rel="stylesheet"> test.html
+    <link href="style.css" type="text/css" rel="stylesheet"> test.html
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> test.html
