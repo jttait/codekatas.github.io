@@ -33,6 +33,7 @@ jobs:
             name=$(xmllint --xpath "/kata/name/text()" $file)
             description=$(xmllint --xpath "/kata/description/text()" $file)
             text=$(xmllint --xpath "/kata/text" $file)
+            touch test.html
             echo "<!DOCTYPE html>" >> test.html
             echo "<html lang=\"en\">" >> test.html
             echo "  <head>" >> test.html
@@ -40,7 +41,7 @@ jobs:
             echo "  </head>" >> test.html
             echo "  <body>" >> test.html
             echo "  </body>" >> test.html
-            echo "</html>"
+            echo "</html>" >> test.html
           done
       - name: Add all changes
         run: git add --all
