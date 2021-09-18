@@ -1,6 +1,6 @@
 <kata>
    <name>PokerHands</name>
-   <description>Code kata for scoring poker hands.</description>
+   <description>Score poker hands.</description>
    <text>
       <p>Each hand has five cards.</p>
       <p>Suits are: Hearts, Spades, Clubs, and Diamonds.</p>

@@ -1,6 +1,6 @@
 <kata>
    <name>IntegerToWords</name>
-   <description>Code kata for converting integer to words.</description>
+   <description>Convert integer to words.</description>
    <text>
       <p>Convert an integer to words e.g. 1 to "one" or 2,106,023 to "two
       million one hundred and six thousand and twenty three".</p>

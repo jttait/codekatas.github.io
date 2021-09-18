@@ -1,6 +1,6 @@
 <kata>
    <name>CoinChange</name>
-   <description>Code kata for making change with coins.</description>
+   <description>Making change with available coins.</description>
    <text>
       <p>A vending machine dispenses change to customers after a purchase.</p>
       <p>Various amounts of different denominations of coins may be available to

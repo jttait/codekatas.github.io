@@ -1,6 +1,6 @@
 <kata>
    <name>ResistorColorCode</name>
-   <description>Code kata for determining resistor value based on color codes.</description>
+   <description>Determine resistor value based on color codes.</description>
    <text>
       <p>IEC 60062:2016 defines a standard colour code for showing the rating
       of resistors.</p>

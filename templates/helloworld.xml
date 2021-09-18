@@ -1,6 +1,6 @@
 <kata>
    <name>HelloWorld</name>
-   <description>Code kata for hello world.</description>
+   <description>Hello world.</description>
    <text>
       <p>Print "hello, world."</p>
    </text>

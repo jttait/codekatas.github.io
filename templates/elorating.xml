@@ -1,6 +1,6 @@
 <kata>
    <name>EloRating</name>
-   <description>Code kata for calculating Elo ratings.</description>
+   <description>Calculate Elo ratings.</description>
    <text>
       <p>The Elo rating is used to measuring relative skill of players in
       zero-sum games like chess.</p>

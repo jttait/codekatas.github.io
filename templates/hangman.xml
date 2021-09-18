@@ -1,6 +1,6 @@
 <kata>
    <name>Hangman</name>
-   <description>Code kata for implementing a hangman game.</description>
+   <description>Implement hangman game.</description>
    <text>
       <p>The game is started with a word and a permitted number of incorrect
       guesses.</p>

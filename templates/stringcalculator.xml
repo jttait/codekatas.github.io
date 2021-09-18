@@ -1,6 +1,6 @@
 <kata>
    <name>StringCalculator</name>
-   <description>Code kata for calculating the result of an equation expressed as a string.</description>
+   <description>Calculate the result of an equation expressed as a string.</description>
    <text>
       <p>The input is an equation expressed as a string e.g. "2+4*3".</p>
       <p>The possible operators, in order of precedence, are:</p>

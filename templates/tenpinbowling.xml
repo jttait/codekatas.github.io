@@ -1,6 +1,6 @@
 <kata>
    <name>TenPinBowling</name>
-   <description>Code kata for scoring ten pin bowling.</description>
+   <description>Score ten pin bowling.</description>
    <text>
       <p>A game comprises ten frames.</p>
       <p>Each frame comprises up to 2 rolls.</p>

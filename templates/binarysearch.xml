@@ -1,6 +1,6 @@
 <kata>
    <name>BinarySearch</name>
-   <description>Code kata for binary search.</description>
+   <description>Binary search algorithm.</description>
    <text>
       <p>Implement binary search for a sorted array of integers.</p>
    </text>

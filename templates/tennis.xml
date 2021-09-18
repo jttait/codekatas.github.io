@@ -1,6 +1,6 @@
 <kata>
    <name>Tennis</name>
-   <description>Code kata for scoring a tennis match.</description>
+   <description>Score a tennis match.</description>
    <text>
       <p>A tennis match comprises three or five sets.</p>
       <p>The first player to win a majority of the sets wins the match.</p>

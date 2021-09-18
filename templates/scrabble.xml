@@ -1,6 +1,6 @@
 <kata>
    <name>Scrabble</name>
-   <description>Code kata for calculating Scrabble score.</description>
+   <description>Calculate Scrabble score.</description>
    <text>
       <p>A player can place up to eight tiles.</p>
       <p>These tiles are worth 1 point: A, E, I, L, N, O, R, S, T, U.</p>

@@ -1,6 +1,6 @@
 <kata>
    <name>ShoppingBasket</name>
-   <description>Code kata for pricing a shopping basket.</description>
+   <description>Price a shopping basket.</description>
    <text>
       <p>A product has a name and price.</p>
       <p>Add and remove products from basket.</p>

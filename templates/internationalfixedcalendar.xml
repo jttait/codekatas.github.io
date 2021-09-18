@@ -1,6 +1,6 @@
 <kata>
    <name>InternationalFixedCalendar</name>
-   <description>Code kata for converting between Gregorian and International
+   <description>Convert between Gregorian and International
       Fixed Calendar dates.</description>
    <text>
       <p>The International Fixed Calendar has 13 months, each of 28 days.</p>

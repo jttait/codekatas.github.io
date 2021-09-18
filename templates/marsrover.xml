@@ -1,6 +1,6 @@
 <kata>
    <name>MarsRover</name>
-   <description>Code kata for moving a Mars rover.</description>
+   <description>Move a Mars rover and determine final position.</description>
    <text>
       <p>The rover starts with an initial position and heading.</p>
       <p>Position is defined by x and y coordinates.</p>
