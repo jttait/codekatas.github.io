@@ -27,7 +27,7 @@ jobs:
 
       - name: Test loop
         run: |
-          for file in ./templates; do
+          for file in ./templates/*; do
             echo "$file"
           done
       - name: Write
