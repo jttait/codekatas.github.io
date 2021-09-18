@@ -30,7 +30,7 @@ jobs:
       - name: Test loop
         run: |
           for file in ./templates/*; do
-            $name = (xmllint --shell $file <<< "cat /name/text()" | grep -v '^/ >")
+            $name = $(xmllint --shell $file <<< "cat /name/text()" | grep -v '^/ >")
             echo "$name"
           done
       - name: Write
