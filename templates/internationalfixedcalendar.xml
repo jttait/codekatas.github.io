@@ -1,0 +1,15 @@
+<kata>
+   <name>InternationalFixedCalendar</name>
+   <description>Code kata for converting between Gregorian and International
+      Fixed Calendar dates.</description>
+   <text>
+      <p>The International Fixed Calendar has 13 months, each of 28 days.</p>
+      <p>The months are January, February, March, April, May, June, Sol, July,
+      August, September, October, November, December.</p>
+      <p>"Year Day" is a holiday inserted after 28<sup>th</sup> December and
+      does not belong to any month.</p>
+      <p>In leap years, an extra day is inserted as 29<sup>th</sup> June,
+      between 28<sup>th</sup> June and 1<sup>st</sup> Sol.</p>
+      <p>Convert between the Gregorian and International Fixed Calendar.</p>
+   </text>
+</kata>
