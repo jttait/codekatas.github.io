@@ -1,0 +1,19 @@
+<kata>
+   <name>Scrabble</name>
+   <description>Code kata for calculating Scrabble score.</description>
+   <text>
+      <p>A player can place up to eight tiles.</p>
+      <p>These tiles are worth 1 point: A, E, I, L, N, O, R, S, T, U.</p>
+      <p>These tiles are worth 2 points: D, G.</p>
+      <p>These tiles are worth 3 points: B, C, M, P.</p>
+      <p>These tiles are worth 4 points: F, H, V, W, Y.</p>
+      <p>These tiles are worth 5 points: K.</p>
+      <p>These tiles are worth 8 points: J, X.</p>
+      <p>These tiles are worth 10 points: Q, Z.</p>
+      <p>A wildcard tile is worth 0 points.</p>
+      <p>Premium squares are Triple Word Score, Double Word Score, Triple
+      Letter Score, and Double Letter Score.</p>
+      <p>If the word occupies two premium word squares then the score is
+      multiplied by both e.g. multiply by 9 for two Triple Word Scores.</p>
+   </text>
+</kata>
