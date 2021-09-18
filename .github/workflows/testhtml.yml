@@ -30,9 +30,8 @@ jobs:
       - name: Test loop
         run: |
           for file in ./templates/*; do
-            awk -F"[<>]" '/CFBundleVersion/ {getline;print $3;exit}' echo
-            echo "$(head -n 2 $file)"
-            echo "$(head -n 3 $file)"
+            $name = (xmllint --shell $file <<< "cat /name/text()" | grep -v '^/ >")
+            echo "$name"
           done
       - name: Write
         run: |
