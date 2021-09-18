@@ -1,0 +1,18 @@
+<kata>
+   <name>StringCalculator</name>
+   <description>Code kata for calculating the result of an equation expressed as a string.</description>
+   <text>
+      <p>The input is an equation expressed as a string e.g. "2+4*3".</p>
+      <p>The possible operators, in order of precedence, are:</p>
+      <ul>
+         <li>Parenthesis ()</li>
+         <li>Exponents ^</li>
+         <li>Division /</li>
+         <li>Multiplication *</li>
+         <li>Addition +</li>
+         <li>Subtraction -</li>
+      </ul>
+      <p>Numbers can only be positive integers.</p>
+      <p>Calculate the result, e.g. 14 for the input on the first line.</p>
+   </text>
+</kata>
