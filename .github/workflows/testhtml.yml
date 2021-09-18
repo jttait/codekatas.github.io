@@ -41,11 +41,11 @@ jobs:
             echo "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">" >> test.html
             echo "    <meta name=\"description\" content=\"$description\">" >> test.html
             echo "    <meta charset=\"UTF-8\">" >> test.html
-            echo "    <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">" >> echo test.html
-            echo "    <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>" >> echo test.html
-            echo "    <link href=\"https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&display=swap\" rel=\"stylesheet\">" >> echo test.html
-            echo "    <link href=\"style.css\" type=\"text/css\" rel=\"stylesheet\">" >> echo test.html
-            echo "    <link rel=\"shortcut icon\" href=\"favicon.ico\" type=\"image/x-icon\">" >> echo test.html
+            echo "    <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">" >> test.html
+            echo "    <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>" >> test.html
+            echo "    <link href=\"https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&display=swap\" rel=\"stylesheet\">" >> test.html
+            echo "    <link href=\"style.css\" type=\"text/css\" rel=\"stylesheet\">" >> test.html
+            echo "    <link rel=\"shortcut icon\" href=\"favicon.ico\" type=\"image/x-icon\">" >> test.html
             echo "  </head>" >> test.html
             echo "  <body>" >> test.html
             echo "  </body>" >> test.html
