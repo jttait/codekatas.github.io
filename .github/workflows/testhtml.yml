@@ -51,7 +51,7 @@ jobs:
             echo "    <link rel=\"shortcut icon\" href=\"favicon.ico\" type=\"image/x-icon\">" >> $htmlfile
             echo "  </head>" >> $htmlfile
             echo "  <body>" >> $htmlfile
-            echo "    <h1><a href=\"index.html\">Kata > $name</h1>" >> $htmlfile
+            echo "    <h1><a href=\"index.html\">Kata</a> > $name</h1>" >> $htmlfile
             echo "    $text" >> $htmlfile
             echo "  </body>" >> $htmlfile
             echo "</html>" >> $htmlfile
