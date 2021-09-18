@@ -27,7 +27,7 @@ jobs:
       
       - name: Install XMLLint
         run: sudo apt  install libxml2-utils
-      - name: Test loop
+      - name: XML to HTML
         run: |
           for file in ./templates/*; do
             name=$(xmllint --xpath "/kata/name/text()" $file)
@@ -59,6 +59,35 @@ jobs:
             echo "  </body>" >> $htmlfile
             echo "</html>" >> $htmlfile
           done
+      - name: generateIndex
+        run: |
+          htmlfile="index.html"
+          echo "" > $htmlfile
+          echo "<!DOCTYPE html>" >> $htmlfile
+          echo "<html lang=\"en\">" >> $htmlfile
+          echo "  <head>" >> $htmlfile
+          echo "    <title>$name | $description</title>" >> $htmlfile
+          echo "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">" >> $htmlfile
+          echo "    <meta name=\"description\" content=\"$description\">" >> $htmlfile
+          echo "    <meta charset=\"UTF-8\">" >> $htmlfile
+          echo "    <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">" >> $htmlfile
+          echo "    <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>" >> $htmlfile
+          echo "    <link href=\"https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&display=swap\" rel=\"stylesheet\">" >> $htmlfile
+          echo "    <link href=\"style.css\" type=\"text/css\" rel=\"stylesheet\">" >> $htmlfile
+          echo "    <link rel=\"shortcut icon\" href=\"favicon.ico\" type=\"image/x-icon\">" >> $htmlfile
+          echo "  </head>" >> $htmlfile
+          echo "  <body>" >> $htmlfile
+          echo "    <h1>Kata</h1>" >> $htmlfile
+          for file in ./templates/*; do
+            name=$(xmllint --xpath "/kata/name/text()" $file)
+            description=$(xmllint --xpath "/kata/description/text()" $file)
+            text=$(xmllint --xpath "/kata/text/child::*" $file)
+            href="${name,,}.html"
+            echo "<p class=\"nav\"><a href=\"$href\">$name</a>: $description</p>" >> $htmlfile
+          done
+          echo "  </body>" >> $htmlfile
+          echo "</html>" >> $htmlfile    
+          
       - name: Add all changes
         run: git add --all
       - name: Status
