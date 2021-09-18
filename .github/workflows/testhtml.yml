@@ -28,9 +28,12 @@ jobs:
       - name: Write
         run: |
           echo "<!DOCTYPE html>" >> test.html
-          echo "  <html lang=\"en\">" >> test.html
-          echo "    <head>" >> test.html
-          echo "    </head>" >> test.html
+          echo "<html lang=\"en\">" >> test.html
+          echo "  <head>" >> test.html
+          echo "  </head>" >> test.html
+          echo "  <body>" >> test.html
+          echo "  </body>" >> test.html
+          echo "</html>
       - name: Add all changes
         run: git add --all
       - name: Status
