@@ -45,6 +45,7 @@ jobs:
       - name: generateIndex
         run: |
           htmlfile="index.html"
+          description="List of code kata."
           echo "" > $htmlfile
           echo "<!DOCTYPE html>" >> $htmlfile
           echo "<html lang=\"en\">" >> $htmlfile
