@@ -67,7 +67,7 @@ jobs:
             description=$(xmllint --xpath "/kata/description/text()" $file)
             text=$(xmllint --xpath "/kata/text/child::*" $file)
             href="${name,,}.html"
-            echo "<p class=\"nav\"><a href=\"$href\">$name</a>: $description</p>" >> $htmlfile
+            echo "    <p class=\"nav\"><a href=\"$href\">$name</a>: $description</p>" >> $htmlfile
           done
           echo "  </body>" >> $htmlfile
           echo "</html>" >> $htmlfile
