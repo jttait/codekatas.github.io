@@ -9,8 +9,8 @@
       <ul>
          <li>Move forward one</li>
          <li>Move backward one</li>
-         <li>Turn right 90&#176;</li>
-         <li>Turn left 90&#176;</li>
+         <li>Rotate clockwise 90&#176;</li>
+         <li>Rotate anticlockwise 90&#176;</li>
       </ul>
       <p>A sequence of instructions is received from Earth e.g. forward, right, reverse, left.</p>
       <p>Determine the final position and heading of the rover after executing
