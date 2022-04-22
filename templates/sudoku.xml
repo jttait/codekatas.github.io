@@ -1,8 +1,8 @@
 <kata>
    <name>Sudoku</name>
-   <description>Solve a 9&times;9 sudoku puzzle.</description>
+   <description>Solve a 9&#215;9 sudoku puzzle.</description>
    <text>
-      <p>The board is a 9&times;9 grid.</p>
+      <p>The board is a 9&#215;9 grid.</p>
       <p>
         The objective is to fill the grid digits so that each row, column, and 3&times;3 subgrid
 	contains the digits 1 to 9.
