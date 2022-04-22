@@ -4,11 +4,10 @@
    <text>
       <p>The board is a 9&#215;9 grid.</p>
       <p>
-        The objective is to fill the grid digits so that each row, column, and 3&#215;3 subgrid
-	contains the digits 1 to 9.
+        The objective is to fill the grid so that each row, column, and 3&#215;3 subgrid contains
+	the digits 1 to 9.
       </p>
       <p>The game starts with the grid partially populated.</p>
-      <p>Determine whether a solution exists.</p>
-      <p>If it exists, find it.</p>
+      <p>Determine whether a solution exists and, if it does, find it.</p>
    </text>
 </kata>
