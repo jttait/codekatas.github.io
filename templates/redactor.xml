@@ -1,0 +1,17 @@
+<kata>
+   <name>Redactor</name>
+   <description>Redact disallowed words from a text.</description>
+   <text>
+      <p>Certain sensitive information is to be redacted in a given text.</p>
+      <p>This may include the following:</li>
+      <ul>
+        <li>Email addresses</li>
+        <li>Telephone numbers</li>
+        <li>Product names</li>
+      </ul>
+      <p>
+        The solution should allow redacted words to be displayed in different ways e.g. as the word
+        REDACTED or as an asterisk for each character ****.
+      </p>
+   </text>
+</kata>
