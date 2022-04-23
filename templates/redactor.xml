@@ -3,7 +3,7 @@
    <description>Redact disallowed words from a text.</description>
    <text>
       <p>Certain sensitive information is to be redacted in a given text.</p>
-      <p>This may include the following:</li>
+      <p>This may include the following:</p>
       <ul>
         <li>Email addresses</li>
         <li>Telephone numbers</li>
