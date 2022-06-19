@@ -1,0 +1,12 @@
+<kata>
+   <name>SearchSuggestions</name>
+   <description>Provide search suggestions as each character is entered.</description>
+   <text>
+     <p>There is a list of possible search results - these are strings.</p>
+      <p>A user can type characters into a search box.</p>
+      <p>As each character is typed, a list of suggestions should be returned.</p>
+      <p>These suggestions are the search results that have a common prefix with the input.</p>
+      <p>The suggestions should be sorted in lexicographic order.</p>
+      <p>It should be possible to specify a maximum number of suggestions to return.</p>
+   </text>
+</kata>
